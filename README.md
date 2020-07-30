@@ -30,6 +30,20 @@ const object = {
 };
 
 const picked = nx.pick(object, ['a', 'c', 'some.what.and.deep.one']);
+
+// {
+//   "a": 1,
+//   "c": "c-value",
+//   "some": {
+//     "what": {
+//       "and": {
+//         "deep": {
+//           "one": 1
+//         }
+//       }
+//     }
+//   }
+// }
 ```
 
 ## license

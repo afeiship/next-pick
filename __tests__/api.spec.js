@@ -28,9 +28,9 @@ describe('next/pick', function () {
     };
     var picked = nx.pick(object, ['a', 'c', 'some.what.and.deep.one']);
 
-    // console.log(
-    //   JSON.stringify(picked)
-    // );
+    console.log(
+      JSON.stringify(picked, null, 2)
+    );
 
     expect(object === picked).toBe(false);
     expect(picked.a).toBe(1);
