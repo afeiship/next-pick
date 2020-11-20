@@ -8,12 +8,12 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-pick
+npm install -S @jswork/next-pick
 ```
 
 ## usage
 ```js
-import '@feizheng/next-pick';
+import '@jswork/next-pick';
 
 const object = {
   'a': 1,
@@ -49,14 +49,14 @@ const picked = nx.pick(object, ['a', 'c', 'some.what.and.deep.one']);
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-pick/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-pick
-[version-url]: https://npmjs.org/package/@feizheng/next-pick
+[version-image]: https://img.shields.io/npm/v/@jswork/next-pick
+[version-url]: https://npmjs.org/package/@jswork/next-pick
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-pick
+[license-image]: https://img.shields.io/npm/l/@jswork/next-pick
 [license-url]: https://github.com/afeiship/next-pick/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-pick
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-pick
 [size-url]: https://github.com/afeiship/next-pick/blob/master/dist/next-pick.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-pick
-[download-url]: https://www.npmjs.com/package/@feizheng/next-pick
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-pick
+[download-url]: https://www.npmjs.com/package/@jswork/next-pick

@@ -1,6 +1,15 @@
+/*!
+ * name: @jswork/next-pick
+ * description: Creates an object composed of the picked object properties.
+ * homepage: https://github.com/afeiship/next-pick
+ * version: 1.0.0
+ * date: 2020-11-20 17:35:19
+ * license: MIT
+ */
+
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var DEFAULT_OPTIONS = { flatten: false };
 
   nx.pick = function (inObject, inPaths, inOptions) {
