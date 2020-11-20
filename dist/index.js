@@ -3,7 +3,7 @@
  * description: Creates an object composed of the picked object properties.
  * homepage: https://github.com/afeiship/next-pick
  * version: 1.0.0
- * date: 2020-11-20 17:35:19
+ * date: 2020-11-20 17:36:02
  * license: MIT
  */
 
